@@ -1,11 +1,24 @@
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+@import "tailwindcss";
+
+@theme {
+  --color-soc-dark: #0B0F19;
+  --color-soc-card: #111827;
+  --color-soc-border: #1F2937;
+  --color-soc-accent: #3B82F6;
+  --color-soc-danger: #EF4444;
+  --color-soc-warning: #F59E0B;
+  --color-soc-success: #10B981;
+  --color-soc-muted: #9CA3AF;
+}
+
+:root {
+  color-scheme: dark;
 }
 
 body {
-  font-family: Arial, sans-serif;
-  background: #0f172a;
-  color: white;
+  margin: 0;
+  background-color: #0B0F19;
+  color: #F3F4F6;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+  min-height: 100vh;
 }
